@@ -44,7 +44,7 @@ JSONデータ
 lastidea_crawler
 ======================
 
-..
+.. code:: shell
 
    python -m lastidea_crawler.get_itemlist > data/itemlist.tsv
    python -m lastidea_crawler.get_properties < data/itemlist.tsv > data/properties.tsv
